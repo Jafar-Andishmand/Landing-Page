@@ -1,0 +1,161 @@
+* {
+  font-family: roboto;
+}
+body {
+  margin: 0; /* Resetting the default margin to zero */
+  padding: 0; /* Additionally, you might want to reset padding to zero */
+}
+
+.navbar {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f2937;
+  padding: 10px 100px 0px 100px;
+}
+
+.navbar ul {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0);
+}
+.navbar li {
+  list-style-type: none;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.navbar img {
+  width: 100px;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 10px;
+}
+
+.heroSection {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  background-color: #1f2937;
+  padding: 100px;
+}
+
+.heroSection img {
+  width: 500px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.heroSection h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: extra-bold;
+}
+
+.heroSection p {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.button {
+  color: white;
+  background-color: #3882f6;
+  border-color: #3882f6;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.button:hover {
+  curser: pointer;
+  background-color: lightblue;
+  color: white;
+  border-color: lightblue;
+}
+
+.features,
+.quote {
+  padding: 10px 100px 0px 100px;
+}
+.features h2 {
+  font-family: roboto;
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1f2937;
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+}
+
+.features div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rectangle {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #3882f6;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container p {
+  text-align: center;
+  width: 200px;
+}
+.quote {
+  background-color: #e5e7eb;
+  margin: 100px 0px 100px 0px;
+  padding: 100px;
+}
+.quote p {
+  text-align: left;
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+}
+
+.quote footer {
+  text-align: end;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer {
+  padding: 10px 100px 0px 100px;
+  margin: 100px;
+}
+
+.footerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 100px 50px 100px;
+  background-color: #3882f6;
+  border-radius: 10px;
+  color: white;
+  line-height: 10px;
+}
+
+.footerContainer button {
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: white;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.footerContainer h4 {
+  font-size: 24px;
+  font-weight: bold;
+}

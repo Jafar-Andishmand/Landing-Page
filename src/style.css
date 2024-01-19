@@ -1,0 +1,39 @@
+* {
+  font-family: roboto;
+}
+body {
+  margin: 0; /* Resetting the default margin to zero */
+  padding: 0; /* Additionally, you might want to reset padding to zero */
+}
+
+.navbar {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f2937;
+  padding: 10px 100px 0px 100px;
+}
+
+.navbar ul {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0);
+}
+.navbar li {
+  list-style-type: none;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.navbar img {
+  width: 100px;
+  padding: 10px;
+}
+
+.bugatti {
+}
